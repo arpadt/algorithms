@@ -3,6 +3,7 @@ const arr = [11, 5, 9, 2, 4, 7, 8, 1, 3];
 const medianPosition = Math.floor(arr.length / 2) + 1;
 
 function findTheMedian(arr, med) {
+  // condition: the length of the input arra is ODD
   // need: median position (k: k-th smallest number wanted), pivot for sorting
   // make partitions
   // if length of left + length of equal === k --> it will be the pivot (must be in equal) DONE
